@@ -1,24 +1,35 @@
-import React from "react";
-import { FiSearch } from "react-icons/fi";
+import React, { useState } from "react";
 import * as Styled from "./styles";
+import api from "../../services/api";
+import { SearchCepInput } from "../../components/SearchCepInput";
+import { CepResult } from "../../components/CepResult";
 
 const SearchCep = () => {
+  const [cep, setCep] = useState("");
+  const [cepResult, setCepResult] = useState({});
+  const handleSearch = async () => {
+    if (cep === "") {
+      alert("Preencha o campo com algum CEP");
+      return;
+    } else {
+      try {
+        const res = await api.get(`${cep}/json`);
+        setCepResult(res.data);
+        setCep("");
+      } catch {
+        alert("Ops, ocorreu um erro. Tente novamente!");
+      }
+    }
+  };
   return (
     <Styled.Container>
       <h1 className="title">Buscador de CEP</h1>
-      <Styled.SearchCepInput>
-        <input type="text" placeholder="Digite aqui seu CEP..." />
-        <button className="buttonSearch">
-          <FiSearch size={25} color="#fff" />
-        </button>
-      </Styled.SearchCepInput>
-      <Styled.CepResult>
-        <h2>CEP: 23013440</h2>
-        <span>Rua teste alguma coisa</span>
-        <span>Complemento: qualquer cosia</span>
-        <span>Um bairro qualquer</span>
-        <span>Rio de Janeiro - RJ</span>
-      </Styled.CepResult>
+      <SearchCepInput
+        cepValue={cep}
+        setCepValue={setCep}
+        onClick={handleSearch}
+      />
+      <CepResult result={cepResult} />
     </Styled.Container>
   );
 };
