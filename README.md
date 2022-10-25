@@ -15,10 +15,10 @@
 ---
 
 <p align="center">
-  <span>The Project</span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <span>Technologies</span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <span>How to use</span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <span>Contribution</span>
+  <span>O projeto</span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <span>Tecnologiass</span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <span>Como usar</span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <span>Contribuição</span>
 </p>
 
 ---
@@ -28,80 +28,70 @@
 
 ---
 
-## 📝 The Project
+## 📝 O projeto
 
-This is a site to search for CEP in brazil.
+Plataforma para fazer busca pelo CEP de qualquer lugar do Brasil, onde é possível visualizar a Rua, Bairro, Cidade e DDD.
 
 ---
 
-## 💻 Technologies
-
-### Tools
-
-- Visual Studio Code
-
-### Libraries
+## 💻 Tecnologias
 
 - React
 - Axios
 - Styled-components
 
-### Terminal 
-
-- Git Bash
-
 ---
 
-## 📦️ How to use
+## 📦️ Como usar
 
-- To copy the project, use the commands:
+- Para copiar o projeto, use os comandos:
 
 ```bash
-  # Clone the repository
+  # Clonar o repositório
   ❯ git clone https://github.com/alicepsz98/search_cep.git
 
-  # Enter directory
+  # Entrar no diretório
   ❯ cd search_cep
 ```
 
-- To install the dependencies and start the project, you can use Yarn or NPM:
+- Para instalar as dependências, você pode usar yarn ou npm:
 
-**Using yarn**
+**Usando yarn**
 
 ```bash
-  # Install the dependencies
+  # Instalar as dependências
   ❯ yarn
 
-  # Start the project
+  # Rodar o projeto
   ❯ yarn start
 ```
 
-**Using npm**
+**Usando npm**
 
 ```bash
-  # Install the dependencies
+  # Instalar as dependências
   ❯ npm install
 
-  # Start the project
+  # Rodar o projeto
   ❯ npm start
 ```
 
 ---
 
-## 🤝 Contribution
+## 🤝 Contribuição
 
-1. `fork` this repository
-2. Create a branch with your feature:
+1. `fork` neste repositório
+2. Crie uma branch com sua feature:
    - `$ git checkout -b my_feature`
-3. Confirm your branch:
+3. Faça o commit:
    - `$ git commit -m "feature: my new feature"`
-4. Send your branch:
+4. Envie as atualizações:
    - `$ git push origin my_feature`
 
 ---
 
 <p align="center">
-  by Alice Souza 💚
+  por Alice Souza 💚
 </p>
 
  
