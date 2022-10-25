@@ -16,7 +16,7 @@
 
 <p align="center">
   <span>O projeto</span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <span>Tecnologiass</span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <span>Tecnologias</span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <span>Como usar</span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <span>Contribuição</span>
 </p>
